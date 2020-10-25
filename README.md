@@ -31,7 +31,7 @@ This project emphasizes the use of using Javascript & DOM to make dynamic change
     ![ScreenshotQuestions](https://github.com/sanjay1626/JavaQuiz/blob/main/assests/Screenshot2.jpg)
 + A Score Board Area
     - This will display the score and message of users quiz.
-     ![Screenshotdisplay]()
+     ![Screenshotdisplay](https://github.com/sanjay1626/JavaQuiz/blob/main/assests/Screenshot3.jpg)
 + A Highscore Board Area
     - This will display the highest score
      ![Screenshotdisplay]()
