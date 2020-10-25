@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/24/729/309/solved-3x3-rubik-s-cube.jpg);
+    background-position-x: 40px;
+    font-family: 'Grandstander', cursive;
+}
+#timer{
+    text-align: right;
+    float: right;
+    margin-right: 60px;
+   
+}
+
+a{
+    padding-left: 20px;
+}
+
+.container{
+    width: 35%;
+    height: 30%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5%;
+    
+
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.btn{
+    border-radius: 10px;
+    background-color: rgb(238, 237, 224);
+    width: 100%;
+    border-style: groove;
+    border-color: black;
+    
+}
+
+.btn:hover{
+    background-color: darkolivegreen;
+}
+
+#quiz{
+    text-align: left;
+}
+.start{
+   margin-bottom: 40px;
+  
+   border-radius: 40px;
+   width: 100%;
+   font-weight: bold;
+   font-family: 'Grandstander', cursive;
+   
+}
+
+.start:hover{
+    background-color: khaki;
+}
+
+#start{
+   padding-top: 50px;
+}
+
+.list{
+    margin-right: 50px;
+}
+
+#submit {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#quizAgain{
+    
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#clrhistory{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+

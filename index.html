@@ -1,0 +1,102 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+        <!-- Head element -->
+        <head>
+            <!-- Meta Tags -->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Java Quiz</title>
+        <!-- Links -->
+        <!-- Bootstrap/CSS Link -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <link rel="stylesheet" href="./assests/style.css">
+        <!-- Google Font Link -->
+            <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap" rel="stylesheet">
+        <!-- Java/JavaScript/Jquery Links -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            
+
+        </head>
+    
+    <body>
+        <script src="./assests/script.js"></script>
+        <head>
+            <div id ="highscore">
+                <a href="#"><u>View Highscores</u></a> 
+                    <div id="timer" >
+                   </div>
+            </div> 
+        </head>
+            
+
+
+        
+            <div class="container clearfix" >
+                <div class="row-md-12 bg-light" style="border-radius: 40px" >
+                    <div class="col-md-12 col-sm-12 mx-auto ">
+                        
+                            <div id="start">
+                                <h2>Coding Quiz</h2>
+                                    <p>You will be given, random Java Question's, 
+                                        with limited time to finish, 
+                                        each mistakes will dedcut your time. 
+                                        Have Fun & Let's Begin!</p>
+                                    <br>
+                                        <button class="start" onClick= "beginQuiz()">Let's Begin!</button>
+                                     
+                            </div>               
+                        
+                                <!-- Question form -->
+                                <div id="quiz" style="display: none" >
+                                    <span><h3 id="quizQuestion"></h3></span>
+                                    <div id="choices">
+                                        <ul class="list">
+                                        <button class="btn" id="choiceA" onclick="check('A')"></button>
+                                        
+                                        <button class="btn"  id="choiceB" onclick="check('B')"></button>
+                                        
+                                        <button class="btn"  id="choiceC" onclick="check('C')"></button>
+                                        
+                                        <button class="btn"  id="choiceD" onclick="check('D')"></button>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <div id="choiceResponse" style="display: none"></div>
+                                </div>
+
+                        
+                                <div id="scoreBlock" style="display: none"></div>
+                                
+                               <div id="scoreMessage" style="display: none"></div>
+
+                                <input type="text"   placeholder ="Input Initials"style="display: none" id="initial1">
+                                
+                                <div class="row justify-center">
+                                    <div class="col-sm-12">
+                                <button id="submit"   style="display: none; width: 100%; border-radius: 40px;"  onClick="scorehistory()">Submit</button>
+                            
+                                <div><button id="quizAgain"  style="display: none; margin-bottom: 10px; border-radius: 40px;  width: 100%; " onClick="restartQuiz()">Cancel</button></div>
+                              
+                                <div id="highscoreboard" style="display: none;"></div>
+                                     <div id="initialinput" style="display: none;"></div>
+                                     <div id ="usrscore"></div>
+                                     <button id="Back" style="display: none;width: 100%; border-radius: 40px;" onclick="restartQuiz()">  Back</button>
+                                     <button id="clrhistory" style="display: none;width: 100%; border-radius: 40px;" onclick="clearhighscore()">Clear HighScore</button>
+                                
+                            </div>
+                        </div>
+                            
+                    
+                </div>               
+            </div> 
+            <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+            
+    </body>
+    
+    
+    </html>
