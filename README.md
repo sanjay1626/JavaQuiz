@@ -22,7 +22,7 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
 # Summary
 HTML and CSS and Javascript documents create a random password generator...
 This project emphasizes the use of using Javascript & DOM to make dynamic changes to an HMTL document
-  ![ScreenshotIntro]()
+  ![ScreenshotIntro](https://github.com/sanjay1626/JavaQuiz/blob/main/assests/Screenshot1.jpg)
 
 # This project has the following features:
 + A begin button
