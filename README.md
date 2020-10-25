@@ -10,7 +10,7 @@ The user will be given a series of Java questions, in which it would validate if
 
 # Getting Started
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
-   + [GitHub Respository]() 
+   + [GitHub Respository](https://github.com/sanjay1626/JavaQuiz.git) 
    + [Deployed GitHub IO]()
 
 # Prerequisites
