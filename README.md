@@ -41,6 +41,7 @@ This project emphasizes the use of using Javascript,jQuery & DOM to make dynamic
   + HTML
   + CSS
   + JavaScript
+  + jQuery
       
 # License
     MonkeyBrain Inc. 
